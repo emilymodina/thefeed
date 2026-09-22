@@ -1,0 +1,17 @@
+body {
+  background-image: url('img/blueswirls.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#click {
+  text-align: center;
+  display: flex;
+  font-size:xx-large;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

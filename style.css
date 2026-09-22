@@ -1,0 +1,156 @@
+@font-face {
+    font-family: AnonymousPro;
+    src: url(font/AnonymousPro-Regular.ttf);
+} 
+
+@font-face {
+    font-family: Averia;
+    src: url(font/AveriaSerifLibre-Bold.ttf);
+}
+    
+.titleheader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 500px;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#subhead {
+    text-align: center;
+    font-family: AnonymousPro;
+    font-size:17px;
+    padding: 15px;
+    width: 725px;
+    background-color: rgb(202, 202, 204);
+    border-top: solid 20px rgb(33, 54, 146);
+    border-bottom: solid 10px rgb(165, 165, 167);
+}
+
+.ss {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(202, 202, 204);
+    width: 580px;
+    border-bottom: solid 10px rgb(165, 165, 167);
+}
+
+.clip_captions {
+    font-family: AnonymousPro;
+    font-size:17px;
+    margin-right: 20px;
+    display: inline-block;
+    width: 250px;
+}
+
+#cd_gif {
+    position: fixed; 
+    top: 50px;  
+    left: 50px; 
+    width: 15%; 
+    max-width: 190px; 
+    height: auto;
+    display: block;
+}
+
+audio {
+    position: fixed; 
+    top: 250px;  
+    left: 40px;
+}
+
+#notepad {
+     position: fixed; 
+    top: 350px;  
+    left: 50px; 
+    width: 15%; 
+    max-width: 400px; 
+    height: auto;
+    display: block;
+}
+
+#fish {
+     position: fixed; 
+    top: 150px;
+    right: -2%;
+    max-width: 400px; 
+    height: auto;
+    display: block;
+}
+
+#greenaccents {
+    position: fixed;
+    z-index: -1;
+    bottom: auto;
+    right: 0%;
+}
+
+#blueaccents {
+    position: fixed;
+    z-index: -1;
+    top: -5%;
+    left: -5%;
+}
+
+strong {
+    font-size: 30px
+}
+
+body {
+  background-image: url('img/grassfields.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+/* stickers for each entry */
+
+#burger {
+    position: absolute;
+    top: 287%;
+    left: 36%;
+    max-width: 200px;
+    height: auto;
+}
+
+#moneycat {
+    position: absolute;
+    top: 410%;
+    left: 36%;
+    max-width: 200px;
+    height: auto;
+}
+
+#garden {
+    position: absolute;
+    top: 495%;
+    left: 36%;
+    max-width: 200px;
+    height: auto;
+}
+
+#groceries {
+    position: absolute;
+    top: 744%;
+    left: 36%;
+    max-width: 200px;
+    height: auto;
+}
+
+#tomodachi {
+    position: absolute;
+    top: 884%;
+    left: 36%;
+    max-width: 200px;
+    height: auto;
+}
