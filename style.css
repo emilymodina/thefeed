@@ -43,6 +43,60 @@ div {
     border-bottom: solid 10px rgb(165, 165, 167);
 }
 
+/* entries with stickers */
+
+.sslunch {
+    position: relative;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(202, 202, 204);
+    width: 580px;
+    border-bottom: solid 10px rgb(165, 165, 167);
+}
+
+.ssshopping {
+    position: relative;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(202, 202, 204);
+    width: 580px;
+    border-bottom: solid 10px rgb(165, 165, 167);
+}
+
+.ssexercise {
+    position: relative;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(202, 202, 204);
+    width: 580px;
+    border-bottom: solid 10px rgb(165, 165, 167);
+}
+
+.ssdinner {
+    position: relative;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(202, 202, 204);
+    width: 580px;
+    border-bottom: solid 10px rgb(165, 165, 167);
+}
+
+.ssinstagram {
+    position: relative;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(202, 202, 204);
+    width: 580px;
+    border-bottom: solid 10px rgb(165, 165, 167);
+}
+
+/* everything else */
+
 .clip_captions {
     font-family: AnonymousPro;
     font-size:17px;
@@ -69,12 +123,13 @@ audio {
 
 #notepad {
      position: fixed; 
-    top: 350px;  
+    top: 360px;  
     left: 50px; 
     width: 15%; 
-    max-width: 400px; 
+    max-width: 500px; 
     height: auto;
     display: block;
+    transform: scale(1.1);
 }
 
 #fish {
@@ -117,40 +172,40 @@ body {
 
 #burger {
     position: absolute;
-    top: 287%;
-    left: 36%;
+    top: 5px;
+    left: 50px;
     max-width: 200px;
     height: auto;
 }
 
 #moneycat {
     position: absolute;
-    top: 410%;
-    left: 36%;
+    top: 95px;
+    left: 50px;
     max-width: 200px;
     height: auto;
 }
 
 #garden {
     position: absolute;
-    top: 495%;
-    left: 36%;
+    top: 100px;
+    left: 40px;
     max-width: 200px;
     height: auto;
 }
 
 #groceries {
     position: absolute;
-    top: 744%;
-    left: 36%;
+    top: 100px;
+    left: 55px;
     max-width: 200px;
     height: auto;
 }
 
 #tomodachi {
     position: absolute;
-    top: 884%;
-    left: 36%;
+    top: 110px;
+    left: 45px;
     max-width: 200px;
     height: auto;
 }

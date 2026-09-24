@@ -8,10 +8,9 @@ body {
 }
 
 #click {
-  text-align: center;
   display: flex;
-  font-size:xx-large;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  transform: scale(1.3);
 }
